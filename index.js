@@ -14,8 +14,13 @@ app.get("/", (req, res) => {
   res.render("home", { data });
 });
 app.get("/:id", async (req, res) => {
-  let url = process.env.API;
-  url += req.params.id;
-  data = await axios.get(url);
-  res.render("user", { ...data.data });
+  try {
+    let url = process.env.API;
+    url += req.params.id;
+    data = await axios.get(url);
+    res.render("user", { ...data.data });
+  } catch (err) {
+    res.json({ error: "API limit reached" });
+  }
 });
+
