@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/home.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <div class="title">
+      <h1>Contributors to Hacktoberfest 2023</h1>
+    </div>
+
+    <ul>
+      <% for (let x of data){%>
+      <div class="user_data">
+        <a href="/<%=x%>"><%=x%></a>
+      </div>
+
+      <%}%>
+    </ul>
+  </body>
+</html>
