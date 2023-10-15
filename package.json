@@ -6,6 +6,9 @@
   "author": "som singh lodhi",
   "license": "MIT",
   "private": false,
+  "engines": {
+    "node": "16.14.2"
+  },
   "dependencies": {
     "axios": "^1.5.1",
     "dotenv": "^16.3.1",
