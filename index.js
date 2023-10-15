@@ -11,16 +11,18 @@ app.listen(process.env.PORT, () => {
   console.log("world listening");
 });
 app.get("/", (req, res) => {
-  res.render("home", { data });
+  res.status(200).render("home", { data });
 });
 app.get("/:id", async (req, res) => {
   try {
     let url = process.env.API;
     url += req.params.id;
     data = await axios.get(url);
-    res.render("user", { ...data.data });
+    res.status(200).render("user", { ...data.data });
   } catch (err) {
-    res.json({ error: "API limit reached" });
+    res.status(403).json({ error: "API limit reached" });
   }
 });
-
+app.get("*", (req, res) => {
+  res.status(404).send("404 Error");
+});
