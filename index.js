@@ -7,7 +7,7 @@ const { default: axios } = require("axios");
 app.set("view engine", "ejs");
 app.use(express.static(path.join(__dirname, "views")));
 app.use(express.static("public"));
-app.listen(3000, () => {
+app.listen(process.env.PORT, () => {
   console.log("world listening");
 });
 app.get("/", (req, res) => {
