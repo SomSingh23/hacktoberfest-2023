@@ -1,4 +1,5 @@
 # Hacktoberfest 2023
+![image](https://github.com/SomSingh23/hacktoberfest-2023/assets/91485305/609ea777-83b3-4c85-87c7-9ae37036ba6e)
 
 Welcome to Hacktoberfest 2023! We're excited to have you participate in our open source project. This repository is designed for new open source contributors, so whether you're a beginner or an experienced developer, we encourage you to join us and make your first contributions.
 
@@ -26,6 +27,8 @@ GitHub username to the users array, following the format shown in the
 </p>
 
 ## image below:
+![image](https://github.com/SomSingh23/hacktoberfest-2023/assets/91485305/40178a1d-c5c5-4c3c-b64e-967d98dbc4af)
+
 
 <h3>Contribution Rules To keep things simple and focused for first-time
 contributors, please follow these rules when making contributions:</h3>
@@ -35,8 +38,7 @@ contributors, please follow these rules when making contributions:</h3>
 
 2. Do not make changes to other files unless you believe they require
    **updates or fixes**.
-
-<br>
+   
 <h4>How to Make a Meaningful Contribution While the primary goal of this
 repository is to get you started with open source contributions, we
 encourage you to make meaningful contributions that help you learn and
