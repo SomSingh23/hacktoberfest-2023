@@ -1,0 +1,63 @@
+# Hacktoberfest 2023
+
+Welcome to Hacktoberfest 2023! We're excited to have you participate in our open source project. This repository is designed for new open source contributors, so whether you're a beginner or an experienced developer, we encourage you to join us and make your first contributions.
+
+## Project Overview
+
+The goal of this project is to update a simple JavaScript file, `users.js`, by adding your GitHub username to an array. This exercise is an excellent starting point for new contributors to get the hang of contributing to open source projects.
+
+## Getting Started
+
+Follow these steps to contribute to this project:
+
+1. **Fork this repository** by clicking the "Fork" button at the top right of this page. This will create a copy of the project in your GitHub account.
+
+2. **Star this repository** to show your support for the project and stay updated on its progress.
+
+3. **Create a new branch** for your contributions using the following command in your terminal:
+
+   ```bash
+   git checkout -b <branch-name>
+   Replace <branch-name> with a descriptive name for your branch.
+   ```
+
+<p>Make your changes to the users.js file. You should simply add your
+GitHub username to the users array, following the format shown in the
+</p>
+
+## image below:
+
+<h3>Contribution Rules To keep things simple and focused for first-time
+contributors, please follow these rules when making contributions:</h3>
+
+1. **Update the users.js** file by adding your GitHub username to the users
+   array as shown in the image.
+
+2. Do not make changes to other files unless you believe they require
+   **updates or fixes**.
+
+<br>
+<h4>How to Make a Meaningful Contribution While the primary goal of this
+repository is to get you started with open source contributions, we
+encourage you to make meaningful contributions that help you learn and
+grow. </h4>
+
+## Here are a few tips:
+
+1. **Learn from the code:** Study the existing codebase to understand how it
+   works. You might find areas for improvement or optimization.
+
+2. **Add comments:** If you see code that's not well-documented, consider
+   adding comments to help others understand it.
+
+3. **Fix issues:** Check the \"Issues\" tab in this repository for open issues
+   that you can help resolve.
+
+4. **Improve documentation:** Documentation is crucial. If you find areas where
+   the documentation can be enhanced, go ahead and make those changes.
+
+5. **Collaborate:** Feel free to collaborate with other contributors. Don't
+   hesitate to ask questions or seek help from the community.
+
+We look forward to your contributions and hope you have a fantastic
+Hacktoberfest 2023 experience! `Happy coding!`
