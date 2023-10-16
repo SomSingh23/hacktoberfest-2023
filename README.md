@@ -24,9 +24,9 @@ Follow these steps to contribute to this project:
 
 <p>Make your changes to the users.js file. You should simply add your
 GitHub username to the users array, following the format shown in the
-</p>
+image below:</p>
+<br>
 
-## image below:
 ![image](https://github.com/SomSingh23/hacktoberfest-2023/assets/91485305/40178a1d-c5c5-4c3c-b64e-967d98dbc4af)
 
 
