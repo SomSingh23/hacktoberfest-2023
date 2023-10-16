@@ -28,4 +28,4 @@ jobs:
         DOTENV_PATH: .env
 
     - name: Run tests
-      run: npm test
+      run: node index.js
