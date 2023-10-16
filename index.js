@@ -2,7 +2,7 @@ require("dotenv").config();
 let express = require("express");
 let app = express();
 let path = require("path");
-let data = require("./users");
+let contributor_data = require("./users");
 const { default: axios } = require("axios");
 app.set("view engine", "ejs");
 app.use(express.static(path.join(__dirname, "views")));
@@ -11,7 +11,7 @@ app.listen(process.env.PORT, () => {
   console.log("world listening");
 });
 app.get("/", (req, res) => {
-  res.status(200).render("home", { data });
+  res.status(200).render("home", { contributor_data });
 });
 app.get("/:id", async (req, res) => {
   try {
