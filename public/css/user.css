@@ -1,3 +1,92 @@
 body {
-  background-color: pink;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.d1 {
+  display: flex;
+  align-items: center;
+  border: 1px solid #2c3e50;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.user {
+  text-align: center;
+  margin-right: 20px;
+}
+
+.user h1 {
+  font-size: 24px;
+  color: #3498db;
+  margin: 0;
+}
+
+.avatar img {
+  max-width: 200px;
+  max-height: 200px;
+  border: 4px solid #2c3e50;
+  border-radius: 50%;
+}
+
+.pdetails {
+  text-align: center;
+  margin-top: 20px;
+  border: 1px solid #2c3e50;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #e74c3c;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.followd {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+h3 {
+  font-size: 18px;
+  margin: 0 20px;
+}
+
+@media (max-width: 699px) {
+  .user h1 {
+    font-size: 20px;
+  }
+
+  .avatar img {
+    max-width: 150px;
+    max-height: 150px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 16px;
+    margin: 0 10px;
+  }
 }
