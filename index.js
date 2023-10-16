@@ -17,10 +17,15 @@ app.get("/:id", async (req, res) => {
   try {
     let url = process.env.API;
     url += req.params.id;
-    data = await axios.get(url);
+    const config = {
+      headers: {
+        Authorization: `token ${process.env.TOKEN}`,
+      },
+    };
+    data = await axios.get(url, config);
     res.status(200).render("user", { ...data.data });
   } catch (err) {
-    res.status(403).json({ error: "API limit reached" });
+    res.status(403).json({ error: "API LIMIT REACHED" });
   }
 });
 app.get("*", (req, res) => {
