@@ -25,9 +25,9 @@ app.get("/:id", async (req, res) => {
     data = await axios.get(url, config);
     res.status(200).render("user", { ...data.data });
   } catch (err) {
-    res.status(403).json({ error: "API LIMIT REACHED" });
+    res.status(403).render("error_404");
   }
 });
 app.get("*", (req, res) => {
-  res.status(404).send("404 Error");
+  res.status(404).render("error_404");
 });
