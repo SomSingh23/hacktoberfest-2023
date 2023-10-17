@@ -4,13 +4,11 @@
 
 Welcome to Hacktoberfest 2023! We're excited to have you participate in our open source project. This repository is designed for new open source contributors, so whether you're a beginner or an experienced developer, we encourage you to join us and make your first contributions.
 
-<h2> Docker <a herf="https://hub.docker.com/repository/docker/somsingh23/hacktoberfest-2023/general">Image</a> 👇</h2>
+<h2> Docker Image :-</h2>
 
 ```markdown
 https://hub.docker.com/repository/docker/somsingh23/hacktoberfest-2023/general
 ```
-
-**Docker Image:** [Docker Images](https://hub.docker.com/repository/docker/somsingh23/hacktoberfest-2023/general)
 
 ## Project Overview
 
