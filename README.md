@@ -7,7 +7,7 @@ Welcome to Hacktoberfest 2023! We're excited to have you participate in our open
 <h2> Docker Image :-</h2>
 
 ```markdown
-https://hub.docker.com/repository/docker/somsingh23/hacktoberfest-2023/general
+https://hub.docker.com/r/somsingh23/hacktoberfest-2023
 ```
 
 ## Project Overview
