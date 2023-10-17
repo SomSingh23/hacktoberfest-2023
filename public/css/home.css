@@ -46,11 +46,41 @@ a:hover {
 }
 
 @media (max-width: 699px) {
+  .title img {
+    height: 70px;
+    width: 300px;
+  }
   .user_data {
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .title {
-    font-size: 20px;
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+  .title img {
+    height: 150px;
+    width: 600px;
+  }
+  .user_data {
+    font-size: 12px;
+  }
+
+  .title {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 799px) {
+  .title img {
+    height: 110px;
+    width: 500px;
+  }
+  .user_data {
+    font-size: 10px;
+  }
+
+  .title {
+    font-size: 12px;
   }
 }
