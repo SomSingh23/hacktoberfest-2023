@@ -6,9 +6,6 @@
   "author": "som singh lodhi",
   "license": "MIT",
   "private": false,
-  "engines": {
-    "node": ">=16.14.2"
-  },
   "scripts": {
     "start": "node index.js"
   },
